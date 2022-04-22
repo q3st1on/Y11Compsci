@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+    font-family:"IBM Plex Mono Regular";
+    src:url(https://cdnjs.cloudflare.com/ajax/libs/IBM-type/0.5.4/fonts/Mono/web/woff2/IBMPlexMono-Regular-Latin1.woff2) format("woff2"),url(https://cdnjs.cloudflare.com/ajax/libs/IBM-type/0.5.4/fonts/Mono/web/woff/IBMPlexMono-Regular-Latin1.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap
+}
+@font-face{
+    font-family:"IBM Plex Mono Italic";
+    src:url(https://cdnjs.cloudflare.com/ajax/libs/IBM-type/0.5.4/fonts/Mono/web/woff2/IBMPlexMono-Italic-Latin1.woff2) format("woff2"),url(https://cdnjs.cloudflare.com/ajax/libs/IBM-type/0.5.4/fonts/Mono/web/woff/IBMPlexMono-Italic-Latin1.woff) format("woff");
+    font-weight:400;
+    font-style:italic;
+    font-display:swap
+}
+@font-face{
+    font-family:"IBM Plex Mono Bold";
+    src:url(https://cdnjs.cloudflare.com/ajax/libs/IBM-type/0.5.4/fonts/Mono/web/woff2/IBMPlexMono-SemiBold-Latin1.woff2) format("woff2"),url(https://cdnjs.cloudflare.com/ajax/libs/IBM-type/0.5.4/fonts/Mono/web/woff/IBMPlexMono-SemiBold-Latin1.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
